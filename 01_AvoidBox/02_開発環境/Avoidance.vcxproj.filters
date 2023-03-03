@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_Cord">
+      <UniqueIdentifier>{d9994d28-9025-4f4a-98c3-b8e46a168bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main">
+      <UniqueIdentifier>{4fe637f4-6403-45e0-a73e-5e1254665700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\01_System">
+      <UniqueIdentifier>{2a674479-747d-4b98-a217-447af06c09f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object">
+      <UniqueIdentifier>{26276af0-11f7-4f23-aa68-0ba0442fe6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\01_System\00_Input">
+      <UniqueIdentifier>{90ecc76b-9aa3-4ffa-bd60-12eb8866581f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\01_System\01_3D">
+      <UniqueIdentifier>{775d74d7-8669-4d67-a8a5-27c5c7e508f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\01_System\03_OutSide">
+      <UniqueIdentifier>{385cb0a4-5e34-4c33-9cf6-9a633bf87c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\00_Main">
+      <UniqueIdentifier>{ada3f5d2-49da-4048-a6c1-47dae1b75f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\01_System\04_Utility">
+      <UniqueIdentifier>{7e1cb7a9-fedd-479d-9a12-e56a7686baab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode">
+      <UniqueIdentifier>{50f5e731-fd3b-4941-af9e-ece487b9fa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\01_Master">
+      <UniqueIdentifier>{f8e8bc84-b686-49df-be46-67103f11226b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\01_Master\00_Motion">
+      <UniqueIdentifier>{59e62502-3da8-4b9f-86ed-0bd9883b247c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\10_Particle">
+      <UniqueIdentifier>{2bbde2d8-12d3-436a-8e56-d004ae5bbc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\02_Object2D">
+      <UniqueIdentifier>{1275179e-97c5-4666-9150-08228b3071ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\02_Object2D\01_UI">
+      <UniqueIdentifier>{145a86af-5ff6-4807-9f6d-f2bec8c20e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\02_Object2D\01_UI\00_Number">
+      <UniqueIdentifier>{893ba109-c22b-4607-bdee-b9db01165e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\02_Group">
+      <UniqueIdentifier>{23a7b4ab-29bc-45d9-a9c1-f63e25d06da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\01_Title">
+      <UniqueIdentifier>{a0875b5e-ed76-4d55-a476-4dba649652bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\01_System\03_OutSide\02_File">
+      <UniqueIdentifier>{95afe884-2b87-469e-9325-19fb95fb5af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game">
+      <UniqueIdentifier>{276fc89d-9b3a-45f4-b02e-a0c1a5a23ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\00_Pause">
+      <UniqueIdentifier>{3f09c638-2e67-484e-832a-9f76200c8703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\01_UI">
+      <UniqueIdentifier>{2876465f-111d-4b9d-9d2b-53dec1d9c9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\03_Tutorial">
+      <UniqueIdentifier>{bbf60cf0-c644-4182-9a33-c11de77736a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\02_Enemy">
+      <UniqueIdentifier>{d56a522c-3de1-4ba3-acd8-505c8e2112f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Abstract">
+      <UniqueIdentifier>{9e954ce8-1867-4bf7-8e8d-aa6d2c64e016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Factory">
+      <UniqueIdentifier>{11407601-94e9-49f4-b00c-8dfb9e1d5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type">
+      <UniqueIdentifier>{679e5f82-dba9-462d-b25a-c1b6ba292a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\03_Player">
+      <UniqueIdentifier>{70dc601d-8be8-41c5-8579-d6ae0f8683bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\02_Game\04_Stage">
+      <UniqueIdentifier>{0e478b54-43cd-49c7-9983-697542d6a536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\02_Object\03_Shadow">
+      <UniqueIdentifier>{a8546a1f-2436-4945-84a9-fc5c6f3f4ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\04_Edit">
+      <UniqueIdentifier>{4e42b533-c287-4f3d-8a40-061836675471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Cord\00_Main\01_Mode\04_Edit\01_imgui">
+      <UniqueIdentifier>{23b93d0c-416c-4cff-9030-f3f493301ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Imgui">
+      <UniqueIdentifier>{0f1bd4d7-ef88-4f45-86c6-2d4a99e89f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_File">
+      <UniqueIdentifier>{2516cd92-e29e-4ebd-80f1-224a1c9391c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_File\json">
+      <UniqueIdentifier>{f6673166-4a18-4ba6-94e9-991bbd411838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_File\fx">
+      <UniqueIdentifier>{72a862dc-8ae0-4fe9-8b09-3e8ea90a4237}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="particle_manager.cpp">
+      <Filter>00_Cord\02_Object\10_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_emitter.cpp">
+      <Filter>00_Cord\02_Object\10_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>00_Cord\02_Object\10_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D\01_UI\00_Number</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D\01_UI\00_Number</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>00_Cord\00_Main\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D\01_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>00_Cord\00_Main\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>00_Cord\02_Object\01_Master\00_Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_model3D.cpp">
+      <Filter>00_Cord\02_Object\01_Master\00_Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>00_Cord\01_System\03_OutSide\02_File</Filter>
+    </ClCompile>
+    <ClCompile Include="letter.cpp">
+      <Filter>00_Cord\01_System\03_OutSide\02_File</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>00_Cord\01_System\01_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputcontroller.cpp">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputkeyboard.cpp">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>00_Cord\01_System\01_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>00_Cord\01_System\03_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>00_Cord\01_System\03_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="name.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="parts.cpp">
+      <Filter>00_Cord\02_Object\01_Master\00_Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="task.cpp">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>00_Cord\01_System\04_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="precompile.cpp">
+      <Filter>00_Cord</Filter>
+    </ClCompile>
+    <ClCompile Include="object2d.cpp">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX.cpp">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX_group.cpp">
+      <Filter>00_Cord\00_Main\02_Group</Filter>
+    </ClCompile>
+    <ClCompile Include="task_group.cpp">
+      <Filter>00_Cord\00_Main\02_Group</Filter>
+    </ClCompile>
+    <ClCompile Include="object_polygon3d.cpp">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClCompile>
+    <ClCompile Include="object_mesh.cpp">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>00_Cord\01_System\04_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_quaternion.cpp">
+      <Filter>00_Cord\01_System\01_3D</Filter>
+    </ClCompile>
+    <ClCompile Include="inputjoypad.cpp">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="title_logo.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>00_Cord\01_System\03_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\00_Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_title.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_game.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="load_stage.cpp">
+      <Filter>00_Cord\01_System\03_OutSide\02_File</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_proc.cpp">
+      <Filter>00_Cord\01_System</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_box.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_object.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_effect.cpp">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="title_menu.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="factory_enemy.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="countdown.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\01_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="player_afterimage.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="plain.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="player_died.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="player_afterimage_fall.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_homing.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_homing_bomb.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_laser.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_oneway.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_oneway_died.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_planprogress.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_reflection.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="delay_process.cpp">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\03_Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="goal_effect.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\01_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\01_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_shadow.cpp">
+      <Filter>00_Cord\02_Object\03_Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_edit.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_imgui.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit\01_imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_property.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit\01_imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="edit_operator.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\implot.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\implot_demo.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\implot_items.cpp">
+      <Filter>02_Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_edit.cpp">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="particle_manager.h">
+      <Filter>00_Cord\02_Object\10_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_emitter.h">
+      <Filter>00_Cord\02_Object\10_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>00_Cord\02_Object\10_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>00_Cord\02_Object\02_Object2D\01_UI\00_Number</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>00_Cord\02_Object\02_Object2D\01_UI\00_Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>00_Cord\00_Main\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>00_Cord\02_Object\02_Object2D\01_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>00_Cord\00_Main\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>00_Cord\02_Object\01_Master\00_Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_model3D.h">
+      <Filter>00_Cord\02_Object\01_Master\00_Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>00_Cord\01_System\03_OutSide\02_File</Filter>
+    </ClInclude>
+    <ClInclude Include="letter.h">
+      <Filter>00_Cord\01_System\03_OutSide\02_File</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>00_Cord\01_System\01_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputcontroller.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeyboard.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>00_Cord\01_System\01_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>00_Cord\01_System\03_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>00_Cord\01_System\03_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="name.h">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="parts.h">
+      <Filter>00_Cord\02_Object\01_Master\00_Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="task.h">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>00_Cord\01_System\04_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="precompile.h">
+      <Filter>00_Cord</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX.h">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX_group.h">
+      <Filter>00_Cord\00_Main\02_Group</Filter>
+    </ClInclude>
+    <ClInclude Include="task_group.h">
+      <Filter>00_Cord\00_Main\02_Group</Filter>
+    </ClInclude>
+    <ClInclude Include="object_polygon3d.h">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClInclude>
+    <ClInclude Include="object_mesh.h">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>00_Cord\01_System\04_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_quaternion.h">
+      <Filter>00_Cord\01_System\01_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="inputjoypad.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeydata.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="title_logo.h">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>00_Cord\01_System\03_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\00_Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_title.h">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_game.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="load_stage.h">
+      <Filter>00_Cord\01_System\03_OutSide\02_File</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_proc.h">
+      <Filter>00_Cord\01_System</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>00_Cord\01_System\00_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_box.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_object.h">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_effect.h">
+      <Filter>00_Cord\02_Object\02_Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="title_menu.h">
+      <Filter>00_Cord\00_Main\01_Mode\01_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="factory_enemy.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="countdown.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\01_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="player_afterimage.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="plain.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="player_died.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_afterimage_fall.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\03_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_homing.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_homing_bomb.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_laser.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_oneway.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_oneway_died.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_planprogress.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_reflection.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\02_Enemy\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="delay_process.h">
+      <Filter>00_Cord\00_Main\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>00_Cord\02_Object\01_Master</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>00_Cord\00_Main\01_Mode\03_Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="goal_effect.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\04_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\01_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
+      <Filter>00_Cord\00_Main\01_Mode\02_Game\01_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_shadow.h">
+      <Filter>00_Cord\02_Object\03_Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_edit.h">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_imgui.h">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit\01_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_property.h">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit\01_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="edit_operator.h">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\implot.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\implot_internal.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>02_Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_edit.h">
+      <Filter>00_Cord\00_Main\01_Mode\04_Edit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\FILE\texture.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\color.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\model.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\stageGroup.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage0.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage1.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage2.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage3.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage4.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage5.json">
+      <Filter>01_File\json</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage6.json">
+      <Filter>01_File\json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

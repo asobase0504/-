@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Main">
+      <UniqueIdentifier>{f0159098-cbfd-4731-868c-14285ecad14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Input">
+      <UniqueIdentifier>{4942f64e-ad04-4398-ad40-a9631d9e2e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Object">
+      <UniqueIdentifier>{46662834-efab-4c03-b618-defc1f03dcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIle">
+      <UniqueIdentifier>{d34f2a52-70b7-4c95-bb42-419947bb7574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_Mode">
+      <UniqueIdentifier>{48f00a93-53ea-4db8-9029-d9913dbc6a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_Cpntroller">
+      <UniqueIdentifier>{0d4dda8f-550b-4600-8408-706d6820c1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_UI">
+      <UniqueIdentifier>{a2ea58af-17b6-4e77-ac73-b31195417e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage">
+      <UniqueIdentifier>{44d867a8-162d-4067-820f-adf507ea2048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage\00_Map">
+      <UniqueIdentifier>{d842f251-8618-4de9-8e3e-52055cf421c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage\01_Charctor">
+      <UniqueIdentifier>{8a2841a3-810c-4f0f-926a-73c200fe5ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage\00_Map\00_Block">
+      <UniqueIdentifier>{0b4eebda-f9f7-45c9-82b9-e3bdabf61d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage\01_Charctor\00_Bullet">
+      <UniqueIdentifier>{1035b6ef-0593-48ed-af41-b8ab1c32a70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage\01_Charctor\01_AddDesign">
+      <UniqueIdentifier>{586cfd30-e0e9-4741-9ef7-61aa9e3adc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Main\01_OutSide">
+      <UniqueIdentifier>{1e03fd7c-c365-45f1-8f66-0495005d4b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Main\01_OutSide\00_Texture">
+      <UniqueIdentifier>{2e06e99f-38a5-4cf8-81ab-43afe56d7e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Main\00_InSide">
+      <UniqueIdentifier>{872de012-cca7-4762-95d4-1a804d9edff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_Stage\02_Item">
+      <UniqueIdentifier>{6f212687-7e29-4343-ad31-bd662820512b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_UI\00_Menu">
+      <UniqueIdentifier>{a55cf54c-2661-4b69-873f-9824b18bc7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_Mode\02_Customize">
+      <UniqueIdentifier>{e70ca64c-1522-47dc-9327-5b03c40361bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_Mode\01_Title">
+      <UniqueIdentifier>{5948040f-2933-4137-9606-0409f344630f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_Mode\00_Game">
+      <UniqueIdentifier>{4c881af5-b061-444d-9fb7-b7421a8acc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_Mode\03_Tutorial">
+      <UniqueIdentifier>{104c158d-21c7-4f09-a2f8-c232e9da0e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_UI\00_Menu\00_TeamSelect">
+      <UniqueIdentifier>{941783e8-e199-47bd-9326-a25d290d7aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_UI\00_Menu\01_StageSelect">
+      <UniqueIdentifier>{4a60b3b2-e397-4885-8dfa-ef4d1b237181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_UI\00_Menu\02_ColorSelect">
+      <UniqueIdentifier>{abaad82b-1d31-4c49-8522-0d243b59ec36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_UI\00_Menu\03_PeopleNumberSelect">
+      <UniqueIdentifier>{80881531-679e-4beb-9d25-213e325b0f82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\03_Mode\01_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="player_controller.cpp">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\02_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="object2d.cpp">
+      <Filter>ソース ファイル\02_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_controller.cpp">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>ソース ファイル\03_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\03_Mode\00_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClCompile>
+    <ClCompile Include="A-Star.cpp">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_countdown.cpp">
+      <Filter>ソース ファイル\07_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_obtained_setnumber.cpp">
+      <Filter>ソース ファイル\07_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClCompile>
+    <ClCompile Include="block_color_addition.cpp">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClCompile>
+    <ClCompile Include="block_scraped.cpp">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClCompile>
+    <ClCompile Include="crush_effect.cpp">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>ソース ファイル\06_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>ソース ファイル\06_Stage\01_Charctor</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ソース ファイル\06_Stage\00_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\06_Stage\01_Charctor\00_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_effect.cpp">
+      <Filter>ソース ファイル\06_Stage\01_Charctor\00_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="remains_bullet.cpp">
+      <Filter>ソース ファイル\06_Stage\01_Charctor\01_AddDesign</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\00_Main\01_OutSide\00_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>ソース ファイル\00_Main\01_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\00_Main\01_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="theme_color.cpp">
+      <Filter>ソース ファイル\00_Main\01_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClCompile>
+    <ClCompile Include="error_warning.cpp">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClCompile>
+    <ClCompile Include="appear_item.cpp">
+      <Filter>ソース ファイル\06_Stage\02_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputjoypad.cpp">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputkeyboard.cpp">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="customize.cpp">
+      <Filter>ソース ファイル\03_Mode\02_Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_end_game.cpp">
+      <Filter>ソース ファイル\07_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\03_Mode\00_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_item.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\03_Mode\03_Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_team_select.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu\00_TeamSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_stage_select.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu\01_StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_color_select.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu\02_ColorSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_manager.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_number_Select.cpp">
+      <Filter>ソース ファイル\07_UI\00_Menu\03_PeopleNumberSelect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\03_Mode\01_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="player_controller.h">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>ソース ファイル\02_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>ソース ファイル\02_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_controller.h">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>ソース ファイル\03_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\03_Mode\00_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClInclude>
+    <ClInclude Include="A-Star.h">
+      <Filter>ソース ファイル\05_Cpntroller</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_countdown.h">
+      <Filter>ソース ファイル\07_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_obtained_setnumber.h">
+      <Filter>ソース ファイル\07_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="block_color_addition.h">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="block_scraped.h">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="crush_effect.h">
+      <Filter>ソース ファイル\06_Stage\00_Map\00_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>ソース ファイル\06_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>ソース ファイル\06_Stage\01_Charctor</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ソース ファイル\06_Stage\00_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_effect.h">
+      <Filter>ソース ファイル\06_Stage\01_Charctor\00_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ソース ファイル\06_Stage\01_Charctor\00_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="remains_bullet.h">
+      <Filter>ソース ファイル\06_Stage\01_Charctor\01_AddDesign</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ソース ファイル\00_Main\01_OutSide\00_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>ソース ファイル\00_Main\01_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="theme_color.h">
+      <Filter>ソース ファイル\00_Main\01_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル\00_Main\01_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClInclude>
+    <ClInclude Include="error_warning.h">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClInclude>
+    <ClInclude Include="appear_item.h">
+      <Filter>ソース ファイル\06_Stage\02_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputjoypad.h">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeyboard.h">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeydata.h">
+      <Filter>ソース ファイル\01_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="customize.h">
+      <Filter>ソース ファイル\03_Mode\02_Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_end_game.h">
+      <Filter>ソース ファイル\07_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ソース ファイル\03_Mode\00_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>ソース ファイル\07_UI\00_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_item.h">
+      <Filter>ソース ファイル\07_UI\00_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="title_status.h">
+      <Filter>ソース ファイル\03_Mode\02_Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ソース ファイル\03_Mode\03_Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>ソース ファイル\00_Main\00_InSide</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_team_select.h">
+      <Filter>ソース ファイル\07_UI\00_Menu\00_TeamSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_stage_select.h">
+      <Filter>ソース ファイル\07_UI\00_Menu\01_StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_color_select.h">
+      <Filter>ソース ファイル\07_UI\00_Menu\02_ColorSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_manager.h">
+      <Filter>ソース ファイル\07_UI\00_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_number_Select.h">
+      <Filter>ソース ファイル\07_UI\00_Menu\03_PeopleNumberSelect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\FILE\STAGE\stage01.json">
+      <Filter>FIle</Filter>
+    </None>
+    <None Include="data\FILE\color.json">
+      <Filter>FIle</Filter>
+    </None>
+    <None Include="data\FILE\texture.json">
+      <Filter>FIle</Filter>
+    </None>
+    <None Include="data\FILE\STAGE\stage02.json">
+      <Filter>FIle</Filter>
+    </None>
+  </ItemGroup>
+</Project>

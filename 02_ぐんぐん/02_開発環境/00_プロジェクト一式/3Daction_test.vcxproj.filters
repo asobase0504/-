@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="00_メインファイル">
+      <UniqueIdentifier>{ee239ec0-2bc8-43af-8325-039955571b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_3DStage">
+      <UniqueIdentifier>{9fa22a27-dcdf-4b3d-b6c6-53cb52724400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Setem">
+      <UniqueIdentifier>{2841e225-c3ba-4c36-8870-53312dada8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="txt">
+      <UniqueIdentifier>{d77810b7-393d-46ea-91fa-bb038126604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_2D">
+      <UniqueIdentifier>{73fc32fb-3d7d-4002-a4a8-dc476bbba4cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>00_メインファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>00_メインファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>00_メインファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>00_メインファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>00_メインファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_cylinder.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_field.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_sky.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_sphere.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="key_config.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>00_メインファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.cpp">
+      <Filter>02_3DStage</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="colision.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="result_ui.cpp">
+      <Filter>03_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="title_ui.cpp">
+      <Filter>03_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="game_ui.cpp">
+      <Filter>03_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="countdown.cpp">
+      <Filter>03_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>01_Setem</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>03_2D</Filter>
+    </ClCompile>
+    <ClCompile Include="fan.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>00_メインファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>00_メインファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>00_メインファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>00_メインファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>00_メインファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="key_config.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>00_メインファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_sphere.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_cylinder.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_field.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_sky.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>02_3DStage</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="colision.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title_ui.h">
+      <Filter>03_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="result_ui.h">
+      <Filter>03_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="game_ui.h">
+      <Filter>03_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="countdown.h">
+      <Filter>03_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>01_Setem</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>03_2D</Filter>
+    </ClInclude>
+    <ClInclude Include="fan.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\map.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="data\map02.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="data\model.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="data\map06.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="data\map05.txt">
+      <Filter>txt</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
